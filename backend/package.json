@@ -1,0 +1,16 @@
+{
+  "name": "va-locator-backend",
+  "version": "1.0.0",
+  "description": "VA Hospital Locator API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "zipcodes": "^8.0.0"
+  }
+}
